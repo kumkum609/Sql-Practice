@@ -1,6 +1,7 @@
 use office;
 show tables;
 select * from employees;
+
 with MAX_SALARY AS (
 	SELECT DEPT, MAX(SALARY) AS MAX_SALARY 
     FROM EMPLOYEES
